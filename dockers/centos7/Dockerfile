@@ -26,7 +26,6 @@ RUN \
 RUN useradd -m user
 USER user
 
-ENTRYPOINT ["/bin/bash"]
 WORKDIR /home/user
 
 RUN \
